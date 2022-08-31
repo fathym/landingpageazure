@@ -1,10 +1,13 @@
 {
-  "name": "tmp-cpa",
+  "name": "@fathym/landingpageazure",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "npm version patch && npm run deploy:app",
+    "deploy:app": "npm version patch --prefix public && npm run export && npm publish ./out --access public",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
