@@ -1,4 +1,4 @@
-name: fathym/public-web
+name: fathym/landingpageazure
 
 on:
   push:
