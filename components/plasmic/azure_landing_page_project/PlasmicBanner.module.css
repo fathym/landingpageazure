@@ -1,0 +1,120 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  overflow: hidden;
+  position: relative;
+  background: var(--token-yCR_wtnxsOHLEs);
+  min-width: 0;
+  border-radius: 16px;
+}
+.right {
+  display: flex;
+  position: absolute;
+  width: 75%;
+  right: 0px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .right {
+    opacity: 0.25;
+  }
+}
+.img {
+  position: relative;
+  align-self: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.gradient {
+  display: block;
+  position: absolute;
+  left: -1px;
+  top: 0;
+  width: auto;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    var(--token-yCR_wtnxsOHLEs) 0%,
+    #c7c2c2bf 70%
+  );
+}
+.left {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 72.05%;
+  padding: 128px 31px 128px 128px;
+}
+.left > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.left > :global(.__wab_flex-container) > *,
+.left > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.left > :global(.__wab_flex-container) > picture > img,
+.left > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .left {
+    padding: 32px;
+  }
+}
+.text__qa4C9 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  height: auto;
+}
+.text__flp9T {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--token-tQyRFX8ITyKQMW);
+  line-height: 1;
+  height: auto;
+}
+.text___3Sx84 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.svg__rjpmR {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.text__kHrpd {
+  height: auto;
+  width: auto;
+  color: var(--token-IfiFb3b_XQ5r88);
+}
+.svg___0NqWj {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}

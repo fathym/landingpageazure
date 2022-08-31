@@ -1,0 +1,9 @@
+.root2:global(.__wab_instance) {
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root2:global(.__wab_instance) {
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
+}

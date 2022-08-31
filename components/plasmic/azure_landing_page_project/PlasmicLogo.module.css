@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.img {
+  object-fit: cover;
+  width: auto;
+  height: 55px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img {
+    height: 50px;
+  }
+}
+.img_50Opaque {
+  opacity: 0.5;
+}

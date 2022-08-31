@@ -1,0 +1,267 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  background: #232320;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 0.1s;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.1s;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border-width: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+}
+.rootshowStartIcon {
+  padding-left: 16px;
+}
+.rootcolor_clear {
+  background: #23232000;
+}
+.rootshowEndIcon {
+  padding-right: 16px;
+}
+.rootisDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.rootshape_rounded {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 100px;
+  border-radius: 999px;
+}
+.rootsize_compact {
+  padding: 6px 12px;
+}
+.rootcolor_blue {
+  background: var(--token-p-fCTrfjtL4);
+}
+.rootcolor_red {
+  background: #e54d2e;
+}
+.rootcolor_outlineBlue {
+  background: #ffffff00;
+  border: 1px solid var(--token-p-fCTrfjtL4);
+}
+.rootcolor_outlineRed {
+  background: #fff0ee00;
+  border: 1px solid #ca3214;
+}
+.rootshape_rounded_showStartIcon {
+  padding-left: 16px;
+}
+.rootsize_compact_showStartIcon {
+  padding-left: 8px;
+}
+.rootshowEndIcon_shape_rounded {
+  padding-right: 16px;
+}
+.rootsize_compact_showEndIcon {
+  padding-right: 8px;
+}
+.root:hover {
+  background: #282826;
+}
+.rootcolor_clear:hover {
+  background: var(--token-ECewHnPLa);
+}
+.rootcolor_blue:hover {
+  background: #369eff;
+}
+.rootcolor_red:hover {
+  background: #ec5e41;
+}
+.rootcolor_outlineBlue:hover {
+  background: #e1f0ff;
+}
+.rootcolor_outlineRed:hover {
+  background: #ffe6e2;
+}
+.root:focus-within {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  outline: none;
+}
+.root___focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  outline: none;
+}
+.root:active {
+  background: #2e2e2b;
+}
+.rootcolor_clear:active {
+  background: var(--token-3dsm_UqzX);
+}
+.rootcolor_blue:active {
+  background: #52a9ff;
+}
+.rootcolor_red:active {
+  background: #f16a50;
+}
+.rootcolor_outlineBlue:active {
+  background: #cee7fe;
+}
+.rootcolor_outlineRed:active {
+  background: #fdd8d3;
+}
+.startIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.startIconContainershowStartIcon {
+  display: flex;
+}
+.slotTargetStartIcon {
+  color: #ffffff;
+}
+.slotTargetStartIconcolor_outlineBlue {
+  color: #006adc;
+}
+.slotTargetStartIconcolor_outlineRed {
+  color: #ca3214;
+}
+.svg__u8Hs {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.root .contentContainer___focusVisibleWithin {
+  outline: none;
+}
+.slotTargetChildren {
+  color: var(--token-QsosaRJnQf8F5I);
+  font-weight: 400;
+  font-size: 16px;
+  white-space: pre;
+}
+.slotTargetChildrencolor_clear {
+  color: var(--token-wm2qmP22Qi1eVU);
+}
+.slotTargetChildrencolor_blue {
+  color: #ffffff;
+}
+.slotTargetChildrencolor_red {
+  color: #ffffff;
+}
+.slotTargetChildrencolor_outlineBlue {
+  color: #006adc;
+}
+.slotTargetChildrencolor_outlineRed {
+  color: #ca3214;
+}
+.root:focus-within .slotTargetChildren > *,
+.root:focus-within .slotTargetChildren > :global(.__wab_slot) > *,
+.root:focus-within
+  .slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root:focus-within
+  .slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root:focus-within .slotTargetChildren > picture > img,
+.root:focus-within .slotTargetChildren > :global(.__wab_slot) > picture > img,
+.root:focus-within
+  .slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.root:focus-within
+  .slotTargetChildren
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  outline: none;
+}
+.root .slotTargetChildren___focusVisibleWithin > *,
+.root .slotTargetChildren___focusVisibleWithin > :global(.__wab_slot) > *,
+.root
+  .slotTargetChildren___focusVisibleWithin
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root
+  .slotTargetChildren___focusVisibleWithin
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root .slotTargetChildren___focusVisibleWithin > picture > img,
+.root
+  .slotTargetChildren___focusVisibleWithin
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.root
+  .slotTargetChildren___focusVisibleWithin
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.root
+  .slotTargetChildren___focusVisibleWithin
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  outline: none;
+}
+.endIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.endIconContainershowEndIcon {
+  display: flex;
+}
+.slotTargetEndIcon {
+  color: #ffffff;
+  font-size: 16px;
+}
+.slotTargetEndIconcolor_outlineBlue {
+  color: #006adc;
+}
+.slotTargetEndIconcolor_outlineRed {
+  color: #ca3214;
+}
+.svg__psgpe {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}

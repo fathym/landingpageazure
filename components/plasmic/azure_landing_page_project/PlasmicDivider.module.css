@@ -1,0 +1,8 @@
+.root {
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: relative;
+  background: var(--token-NLqGd-L47gW1_G);
+  min-width: 0;
+}
