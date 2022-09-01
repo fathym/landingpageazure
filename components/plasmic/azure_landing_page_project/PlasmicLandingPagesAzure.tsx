@@ -72,7 +72,6 @@ export type PlasmicLandingPagesAzure__OverridesType = {
   root?: p.Flex<"div">;
   navbar?: p.Flex<typeof Navbar>;
   foreground?: p.Flex<"div">;
-  img?: p.Flex<typeof p.PlasmicImg>;
   foreground2?: p.Flex<"div">;
   valuePropsSection?: p.Flex<typeof Section>;
   banner?: p.Flex<typeof Banner>;
@@ -251,10 +250,8 @@ function PlasmicLandingPagesAzure__RenderFunc(props: {
               </div>
 
               <p.PlasmicImg
-                data-plasmic-name={"img"}
-                data-plasmic-override={overrides.img}
                 alt={"" as const}
-                className={classNames(sty.img)}
+                className={classNames(sty.img___3ZS7H)}
                 displayHeight={"auto" as const}
                 displayMaxHeight={"none" as const}
                 displayMaxWidth={"70%" as const}
@@ -1227,6 +1224,18 @@ function PlasmicLandingPagesAzure__RenderFunc(props: {
                 </div>
               </div>
             </p.Stack>
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img___0Voe7)}
+              displayHeight={"auto" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"auto" as const}
+              loading={"lazy" as const}
+            />
           </section>
 
           {true ? (
@@ -1655,7 +1664,6 @@ const PlasmicDescendants = {
     "root",
     "navbar",
     "foreground",
-    "img",
     "foreground2",
     "valuePropsSection",
     "banner",
@@ -1664,8 +1672,7 @@ const PlasmicDescendants = {
     "fathymFooter"
   ],
   navbar: ["navbar"],
-  foreground: ["foreground", "img"],
-  img: ["img"],
+  foreground: ["foreground"],
   foreground2: ["foreground2"],
   valuePropsSection: ["valuePropsSection"],
   banner: ["banner"],
@@ -1680,7 +1687,6 @@ type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
   foreground: "div";
-  img: typeof p.PlasmicImg;
   foreground2: "div";
   valuePropsSection: typeof Section;
   banner: typeof Banner;
@@ -1752,7 +1758,6 @@ export const PlasmicLandingPagesAzure = Object.assign(
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
     foreground: makeNodeComponent("foreground"),
-    img: makeNodeComponent("img"),
     foreground2: makeNodeComponent("foreground2"),
     valuePropsSection: makeNodeComponent("valuePropsSection"),
     banner: makeNodeComponent("banner"),

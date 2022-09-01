@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -43,7 +43,8 @@
           "name": "ParallaxProviderWrapper",
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
@@ -62,7 +63,8 @@
           "name": "Reveal",
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -96,7 +98,8 @@
           "name": "DataProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "enk3K4vZ6pmH6kVCoZJXGn",
@@ -115,7 +118,8 @@
           "name": "YouTube",
           "componentImportPath": "@plasmicpkgs/react-youtube"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "seaQhLVS4bbjiGvJJrRwyL",
@@ -128,7 +132,8 @@
       "images": [],
       "indirect": true,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "sjVjhDwAwAnzPPjTJm6wuM",
@@ -137,19 +142,6 @@
       "version": "latest",
       "cssFilePath": "plasmic/azure_landing_page_project/plasmic_azure_landing_page_project.module.css",
       "components": [
-        {
-          "id": "SKx49zAwuJcxQs",
-          "name": "LandingPagesSvelte",
-          "type": "managed",
-          "projectId": "sjVjhDwAwAnzPPjTJm6wuM",
-          "renderModuleFilePath": "plasmic/azure_landing_page_project/PlasmicLandingPagesSvelte.tsx",
-          "importSpec": {
-            "modulePath": "../pages/svelte-deployment.tsx"
-          },
-          "cssFilePath": "plasmic/azure_landing_page_project/PlasmicLandingPagesSvelte.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
         {
           "id": "r_jYinXni53Wi6",
           "name": "Navbar",
@@ -439,32 +431,6 @@
           "cssFilePath": "plasmic/azure_landing_page_project/PlasmicFathymFooter.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "nNAF7oLMMVRJUp",
-          "name": "LandingPagesReact2",
-          "type": "managed",
-          "projectId": "sjVjhDwAwAnzPPjTJm6wuM",
-          "renderModuleFilePath": "plasmic/azure_landing_page_project/PlasmicLandingPagesReact2.tsx",
-          "importSpec": {
-            "modulePath": "../pages/react-2.tsx"
-          },
-          "cssFilePath": "plasmic/azure_landing_page_project/PlasmicLandingPagesReact2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
-          "id": "AYM_aE6u_bfmbh",
-          "name": "LandingPagesSvelte2",
-          "type": "managed",
-          "projectId": "sjVjhDwAwAnzPPjTJm6wuM",
-          "renderModuleFilePath": "plasmic/azure_landing_page_project/PlasmicLandingPagesSvelte2.tsx",
-          "importSpec": {
-            "modulePath": "../pages/svelte-deployment-2.tsx"
-          },
-          "cssFilePath": "plasmic/azure_landing_page_project/PlasmicLandingPagesSvelte2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
         },
         {
           "id": "UTO8WbDRzxIl4V",
@@ -1440,6 +1406,16 @@
           "id": "5ZupUxyWy1_KVY",
           "name": "MFERPlasmicGatsbyDocuReact.png",
           "filePath": "../public/plasmic/azure_landing_page_project/images/mferPlasmicGatsbyDocuReactpng.png"
+        },
+        {
+          "id": "2O6AhHzd5",
+          "name": "MicrosoftTeams-image (12).png",
+          "filePath": "../public/plasmic/azure_landing_page_project/images/microsoftTeamsImage12Png.png"
+        },
+        {
+          "id": "Z5xdsBzzM",
+          "name": "MicrosoftTeams-image (13).png",
+          "filePath": "../public/plasmic/azure_landing_page_project/images/microsoftTeamsImage13Png.png"
         }
       ],
       "indirect": false,

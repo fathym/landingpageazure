@@ -84,7 +84,7 @@
   line-height: 28px;
   text-align: center;
 }
-.img {
+.img___3ZS7H {
   position: relative;
   object-fit: scale-down;
   max-width: 70%;
@@ -92,10 +92,10 @@
   height: auto;
   transform: none;
 }
-.img > picture > img {
+.img___3ZS7H > picture > img {
   object-fit: scale-down;
 }
-.img > :global(.__wab_img-spacer) > img {
+.img___3ZS7H > :global(.__wab_img-spacer) > img {
   object-fit: scale-down;
 }
 .foreground2 {
@@ -1196,6 +1196,17 @@
 .link___6JvRu {
   position: relative;
   display: none;
+}
+.img___0Voe7 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.img___0Voe7 > picture > img {
+  object-fit: cover;
+}
+.img___0Voe7 > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
 }
 .freeBox__u2XDz {
   flex-direction: column;
