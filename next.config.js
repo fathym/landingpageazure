@@ -1,5 +1,6 @@
 
 module.exports = {
+  basePath: '/azure',
   eslint: {
     ignoreDuringBuilds: true,
   },
