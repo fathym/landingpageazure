@@ -1,7 +1,7 @@
 
 module.exports = {
   basePath: '/azure',
-  assetPrefix: '/azure',
+  assetPrefix: 'https://www.fathym.com/azure',
   eslint: {
     ignoreDuringBuilds: true,
   },
