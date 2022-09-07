@@ -1,4 +1,4 @@
-name: fathym/landingpageazure
+name: GitHub Artifacts - Release
 
 on:
   push:
