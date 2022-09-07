@@ -1,10 +1,7 @@
 
 module.exports = {
   basePath: '/azure',
-  assetPrefix: process.env.BASE_PATH || '',
-  publicRuntimeConfig: {
-    basePath: process.env.BASE_PATH || '',
-  },
+  assetPrefix: '/azure/',
   eslint: {
     ignoreDuringBuilds: true,
   },
